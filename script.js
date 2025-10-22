@@ -3,6 +3,7 @@ const playPauseBtn = document.getElementById('play-pause');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 const progressBar = document.getElementById('progress-bar');
+const video = document.getElementById('video');
 
 const tracks = ['track1.mp3', 'track2.mp3', 'track3.mp3'];
 let currentTrack = 0;
